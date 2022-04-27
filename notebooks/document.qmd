@@ -1,0 +1,19 @@
+---
+title: "chdir"
+format: html
+---
+
+
+```{python}
+import os
+print(os.getcwd())
+```
+
+```{python}
+os.chdir("notebooks")
+```
+
+```{python}
+import os
+print(os.getcwd())
+```
